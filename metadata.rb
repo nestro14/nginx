@@ -3,7 +3,7 @@ maintainer 'Adobe'
 maintainer_email 'ceron@adobe.com'
 license 'Apache-2.0'
 description 'Installs/Configures nginx'
-long_description 'Installs/Configures nginx'
+long_description IO.read("#{File.dirname(__FILE__)}/readme.md")
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
